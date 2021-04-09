@@ -12,7 +12,7 @@ const Form = (props) => {
   };
   const handleClick = (ev) => {
     ev.preventDefault();
-    props.handleClick({ name: newName, phone: newPhone });
+    props.handleClick({ name: newName, number: newPhone });
     setNewName("");
     setNewPhone("");
   };

@@ -10,6 +10,7 @@ const Filter = (props) => {
 
   return (
     <div>
+      <h2>Filter by: </h2>
       name:{" "}
       <input onChange={handleSearch} type="text" name="filter" value={word} />
     </div>
